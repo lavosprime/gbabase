@@ -67,7 +67,7 @@
 			<target name="rebuild" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>make</buildCommand>
 				<buildArguments>-f Makefile</buildArguments>
-				<buildTarget>rebuild</buildTarget>
+				<buildTarget>clean build</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
 				<runAllBuilders>true</runAllBuilders>
